@@ -3,6 +3,7 @@ export const brief = {
     {
       "label": "SECTION 1: HEADER",
       "lines": [
+        "text",
         "T.E.K UNIMASTER ADVISORS",
         "Bridging Asia's Talent with Global Education Opportunities"
       ]
@@ -10,6 +11,7 @@ export const brief = {
     {
       "label": "SECTION 2: HERO SECTION (Large Banner)",
       "lines": [
+        "text",
         "Your Trusted Partner in International Student Recruitment",
         "We are a master agency connecting qualified students from across Asia with leading universities in Europe, the UK, and South Korea. Through our network of vetted local agents, we deliver quality, integrity, and results.",
         "[Button: Partner With Us]"
@@ -18,6 +20,7 @@ export const brief = {
     {
       "label": "SECTION 3: ABOUT US",
       "lines": [
+        "text",
         "About T.E.K UNIMASTER ADVISORS",
         "T.E.K UNIMASTER ADVISORS is an international education consultancy based in Cyprus, specializing in student recruitment across Asia. We operate as a master agent, working exclusively with a carefully selected network of local recruitment agents in key Asian markets.",
         "Our mission is simple: to connect talented, motivated students from Asia with outstanding educational opportunities in Europe, the UK, and South Korea.",
@@ -32,6 +35,7 @@ export const brief = {
     {
       "label": "SECTION 4: OUR MISSION",
       "lines": [
+        "text",
         "Our Mission",
         "To create meaningful educational pathways between Asia and the world's most respected academic destinations. We strive to empower students through access to quality education, while supporting universities in building diverse, talented international student communities.",
         "We achieve this by:",
@@ -44,6 +48,7 @@ export const brief = {
     {
       "label": "SECTION 5: OUR SERVICES",
       "lines": [
+        "text",
         "Our Services",
         "We offer a comprehensive range of services to connect Asian students with quality education opportunities worldwide.",
         "🌍 Student Recruitment",
@@ -61,6 +66,7 @@ export const brief = {
     {
       "label": "SECTION 6: OUR VALUES",
       "lines": [
+        "text",
         "Our Values",
         "🎯 Trust",
         "We build relationships based on honesty, transparency, and mutual respect.",
@@ -77,6 +83,7 @@ export const brief = {
     {
       "label": "SECTION 7: WHY CHOOSE US?",
       "lines": [
+        "text",
         "Why Choose T.E.K UNIMASTER ADVISORS?",
         "🏛️ European Base",
         "Based in Cyprus, we operate within the European Union framework, ensuring compliance with GDPR and European standards.",
@@ -93,6 +100,7 @@ export const brief = {
     {
       "label": "SECTION 8: OUR NETWORK",
       "lines": [
+        "text",
         "Our Network",
         "We serve students and universities across Asia and Europe.",
         "🌏 Recruiting From:",
@@ -105,6 +113,7 @@ export const brief = {
     {
       "label": "SECTION 9: FOOTER",
       "lines": [
+        "text",
         "T.E.K UNIMASTER ADVISORS",
         "Based in Cyprus, European Union",
         "📧 [Email] | 📱 [WhatsApp]",
@@ -117,6 +126,7 @@ export const brief = {
     {
       "label": "SECTION 1: HEADER",
       "lines": [
+        "text",
         "Become a Partner Agent",
         "Join Our Growing Network of Trusted Local Representatives"
       ]
@@ -124,6 +134,7 @@ export const brief = {
     {
       "label": "SECTION 2: INTRO",
       "lines": [
+        "text",
         "Are you a local education agent in Asia looking for a reliable European partner?",
         "T.E.K UNIMASTER ADVISORS is actively seeking partner agents across Asia to join our network. We are a master agency based in Cyprus, working exclusively with local agents to connect students with universities in Europe, the UK, and South Korea.",
         "We do not compete with you. We empower you."
@@ -132,6 +143,7 @@ export const brief = {
     {
       "label": "SECTION 3: WHAT WE OFFER AGENTS",
       "lines": [
+        "text",
         "What We Offer Our Partner Agents",
         "✅ A Trusted European Partner",
         "We are based in Cyprus (EU) and operate with professionalism, transparency, and integrity.",
@@ -165,6 +177,7 @@ export const brief = {
     {
       "label": "SECTION 4: WHO WE ARE LOOKING FOR",
       "lines": [
+        "text",
         "Who We Are Looking For",
         "We are looking for agents who share our commitment to quality and integrity.",
         "You should have:",
@@ -179,6 +192,7 @@ export const brief = {
     {
       "label": "SECTION 5: HOW IT WORKS",
       "lines": [
+        "text",
         "How It Works",
         "1. Apply",
         "Submit your details through our contact form or WhatsApp.",
@@ -197,6 +211,7 @@ export const brief = {
     {
       "label": "SECTION 6: AGENT CODE OF CONDUCT (Summary)",
       "lines": [
+        "text",
         "Our Agent Code of Conduct",
         "Every partner agent agrees to:",
         "✅ Act honestly and transparently with students",
@@ -211,6 +226,7 @@ export const brief = {
     {
       "label": "SECTION 7: CALL TO ACTION",
       "lines": [
+        "text",
         "Ready to Join?",
         "We are looking for passionate, ethical agents to join our growing network.",
         "[Button: Apply Now – Contact Us]"
@@ -221,6 +237,7 @@ export const brief = {
     {
       "label": "SECTION 1: HEADER",
       "lines": [
+        "text",
         "Partner With Us",
         "For Universities, Colleges & Educational Institutions"
       ]
@@ -228,6 +245,7 @@ export const brief = {
     {
       "label": "SECTION 2: INTRO (Hero Section)",
       "lines": [
+        "text",
         "Your Gateway to Asia's Best Talent",
         "T.E.K UNIMASTER ADVISORS connects universities and educational institutions with qualified, motivated students from across Asia. We don't just recruit – we build long-term partnerships that support your institution's growth, reputation, and international presence.",
         "[Button: Start a Conversation]"
@@ -236,6 +254,7 @@ export const brief = {
     {
       "label": "SECTION 3: WHY PARTNER WITH US?",
       "lines": [
+        "text",
         "Why Work With T.E.K UNIMASTER ADVISORS?",
         "We understand that universities have choices when it comes to recruitment partners. Here is what sets us apart:",
         "🌏 On-the-Ground Presence in Asia",
@@ -255,6 +274,7 @@ export const brief = {
     {
       "label": "SECTION 4: WHAT WE DO FOR INSTITUTIONS",
       "lines": [
+        "text",
         "Our Services for Partner Institutions",
         "🌍 Building International Connections",
         "We help you create and grow meaningful relationships with institutions across Asia.",
@@ -288,6 +308,7 @@ export const brief = {
     {
       "label": "SECTION 5: HOW WE WORK",
       "lines": [
+        "text",
         "Our Process",
         "We keep things simple, transparent, and efficient.",
         "1. Initial Conversation",
@@ -309,6 +330,7 @@ export const brief = {
     {
       "label": "SECTION 6: WHO WE WORK WITH",
       "lines": [
+        "text",
         "Who We Partner With",
         "We work with a diverse range of institutions:",
         "🏛️ Universities",
@@ -326,6 +348,7 @@ export const brief = {
     {
       "label": "SECTION 7: FREQUENTLY ASKED QUESTIONS (For Institutions)",
       "lines": [
+        "text",
         "Frequently Asked Questions",
         "Q: How do you recruit students?",
         "A: We work exclusively through a network of vetted local agents across Asia. Our agents identify, screen, and prepare students before they reach us.",
@@ -358,6 +381,7 @@ export const brief = {
     {
       "label": "SECTION 8: CALL TO ACTION",
       "lines": [
+        "text",
         "Ready to Partner With Us?",
         "We are always looking for universities, colleges, and educational institutions who share our commitment to quality and integrity.",
         "[Button: Contact Us Today]",
@@ -371,6 +395,7 @@ export const brief = {
     {
       "label": "SECTION 1: HEADER",
       "lines": [
+        "text",
         "Our Partner Countries",
         "Where We Place Students"
       ]
@@ -378,12 +403,14 @@ export const brief = {
     {
       "label": "SECTION 2: INTRO",
       "lines": [
+        "text",
         "T.E.K UNIMASTER ADVISORS places qualified students from across Asia with universities and institutions in the following countries. Each destination offers unique opportunities, high-quality education, and welcoming environments for international students."
       ]
     },
     {
       "label": "SECTION 3: DESTINATIONS",
       "lines": [
+        "text",
         "🇧🇬 Bulgaria",
         "Bulgaria offers affordable, high-quality education with a growing number of English-taught programs. Students enjoy a rich cultural heritage, vibrant student life, and a welcoming atmosphere. Tuition fees are among the most competitive in Europe.",
         "🎓 Popular Fields: Medicine, Dentistry, Business, Engineering, Computer Science",
@@ -419,6 +446,7 @@ export const brief = {
     {
       "label": "SECTION 4: WHY THESE COUNTRIES?",
       "lines": [
+        "text",
         "Why These Destinations?",
         "We carefully select our partner countries based on:",
         "✅ High-quality education systems",
@@ -433,6 +461,7 @@ export const brief = {
     {
       "label": "SECTION 5: SERVING ASIA",
       "lines": [
+        "text",
         "Serving Students Across Asia",
         "T.E.K UNIMASTER ADVISORS recruits’ students from across Asia, including:",
         "🇧🇩 Bangladesh 🇮🇳 India 🇳🇵 Nepal 🇵🇰 Pakistan",
@@ -445,6 +474,7 @@ export const brief = {
     {
       "label": "SECTION 6: FOOTER",
       "lines": [
+        "text",
         "Interested in Partnering?",
         "Whether you are a university looking for students or an agent looking for a trusted partner, we would love to hear from you.",
         "📧 [Email]",
@@ -459,6 +489,7 @@ export const brief = {
     {
       "label": "SECTION 1: HEADER",
       "lines": [
+        "text",
         "Contact Us",
         "Let's Start a Conversation"
       ]
@@ -466,6 +497,7 @@ export const brief = {
     {
       "label": "SECTION 2: INTRO",
       "lines": [
+        "text",
         "We are always looking for new partners – universities, agents, and institutions who share our commitment to quality and integrity.",
         "Please reach out using the form below or contact us directly."
       ]
@@ -473,6 +505,7 @@ export const brief = {
     {
       "label": "SECTION 3: CONTACT FORM",
       "lines": [
+        "text",
         "Full Name: [Text Box]",
         "Country: [Text Box]",
         "Role: [Dropdown: University Representative / Recruitment Agent / Other]",
@@ -486,6 +519,7 @@ export const brief = {
     {
       "label": "SECTION 4: DIRECT CONTACT",
       "lines": [
+        "text",
         "You can also reach us directly:",
         "📧 Email: [Your Email]",
         "📱 WhatsApp: [Your WhatsApp Number]",
@@ -496,6 +530,7 @@ export const brief = {
     {
       "label": "SECTION 5: FOOTER",
       "lines": [
+        "text",
         "T.E.K UNIMASTER ADVISORS",
         "Based in Cyprus, European Union",
         "© 2026 T.E.K UNIMASTER ADVISORS. All rights reserved.",
