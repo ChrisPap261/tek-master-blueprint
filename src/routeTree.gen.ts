@@ -10,33 +10,89 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as ForPartnerInstitutionsRouteImport } from './routes/for-partner-institutions'
+import { Route as ForSubAgentsRouteImport } from './routes/for-sub-agents'
+import { Route as PartnerCountriesRouteImport } from './routes/partner-countries'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ForPartnerInstitutionsRoute = ForPartnerInstitutionsRouteImport.update({
+  id: '/for-partner-institutions',
+  path: '/for-partner-institutions',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ForSubAgentsRoute = ForSubAgentsRouteImport.update({
+  id: '/for-sub-agents',
+  path: '/for-sub-agents',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PartnerCountriesRoute = PartnerCountriesRouteImport.update({
+  id: '/partner-countries',
+  path: '/partner-countries',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/for-partner-institutions': typeof ForPartnerInstitutionsRoute
+  '/for-sub-agents': typeof ForSubAgentsRoute
+  '/partner-countries': typeof PartnerCountriesRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/for-partner-institutions': typeof ForPartnerInstitutionsRoute
+  '/for-sub-agents': typeof ForSubAgentsRoute
+  '/partner-countries': typeof PartnerCountriesRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/for-partner-institutions': typeof ForPartnerInstitutionsRoute
+  '/for-sub-agents': typeof ForSubAgentsRoute
+  '/partner-countries': typeof PartnerCountriesRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/contact'
+    | '/for-partner-institutions'
+    | '/for-sub-agents'
+    | '/partner-countries'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/contact'
+    | '/for-partner-institutions'
+    | '/for-sub-agents'
+    | '/partner-countries'
+  id:
+    | '__root__'
+    | '/'
+    | '/contact'
+    | '/for-partner-institutions'
+    | '/for-sub-agents'
+    | '/partner-countries'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ContactRoute: typeof ContactRoute
+  ForPartnerInstitutionsRoute: typeof ForPartnerInstitutionsRoute
+  ForSubAgentsRoute: typeof ForSubAgentsRoute
+  PartnerCountriesRoute: typeof PartnerCountriesRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +104,43 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/for-partner-institutions': {
+      id: '/for-partner-institutions'
+      path: '/for-partner-institutions'
+      fullPath: '/for-partner-institutions'
+      preLoaderRoute: typeof ForPartnerInstitutionsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/for-sub-agents': {
+      id: '/for-sub-agents'
+      path: '/for-sub-agents'
+      fullPath: '/for-sub-agents'
+      preLoaderRoute: typeof ForSubAgentsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/partner-countries': {
+      id: '/partner-countries'
+      path: '/partner-countries'
+      fullPath: '/partner-countries'
+      preLoaderRoute: typeof PartnerCountriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ContactRoute: ContactRoute,
+  ForPartnerInstitutionsRoute: ForPartnerInstitutionsRoute,
+  ForSubAgentsRoute: ForSubAgentsRoute,
+  PartnerCountriesRoute: PartnerCountriesRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
